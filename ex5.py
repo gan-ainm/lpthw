@@ -5,10 +5,14 @@ weight = 180 # lbs
 eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
+centimeters = height * 2.54
+kilograms = weight * 0.45359
 
 print(f"Let's talk about {name}.")
 print(f"He's {height} inches tall.")
+print(f"That's {centimeters} centimeters.")
 print(f"He's {weight} pounds heavy.")
+print(f"That's {kilograms} kilograms.")
 print("Actually that's not too heavy.")
 print(f"He's got {eyes} eyes and {hair} hair.")
 print(f"His teeth are usually {teeth} depending on the coffee.")
